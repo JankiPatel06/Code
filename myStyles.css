@@ -1,0 +1,136 @@
+
+  .background_color{
+    background-color: rgb(251, 223, 187);
+  }
+  h1 {
+    text-align: center;
+    font-style: italic;
+    font-family:'Times New Roman';
+    color: brown;
+    padding-top: 20px
+    padding-right 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  h2{
+    text-align: center;
+    font-style: italic;
+    font-family:'Times New Roman';
+    color: rgb(239, 126, 21);
+    padding-top: 20px;
+  }
+
+  h3{
+    text-align: center;
+    font-style: italic;
+    font-weight: 25%;
+    font-family:'Times New Roman';
+    color: rgb(239, 126, 21);
+    padding-top: 20px;
+  }
+
+  h4{
+    text-align: left;
+    font-style: italic;
+    font-family:'Times New Roman';
+    color: rgb(239, 126, 21);
+    padding-top: 20px;
+  }
+
+  h5{
+    text-align: right;
+    font-style: italic;
+    font-family:'Times New Roman';
+    color: rgb(239, 126, 21);
+    padding-top: 20px;
+  }
+  
+  img {
+    border: 5px solid #461896;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  /* figure caption*/
+  #fig{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+
+  }
+  #para1 {
+    color:navy;
+    text-align: center;
+  }
+  /* style p and class selector with specific style*/
+  .style_p{
+    border: 5px solid springgreen;
+    font-size: 25px;
+    line-height: 20px;
+    color: plum;
+    font-family: monospace;
+    padding: 4px;
+    margin-left: 6px;
+  }
+  div
+  {
+  border-radius: 25px;
+  border: 5px solid #ed7b87;
+  padding: 20px; 
+    
+  }
+
+  #highlight 
+  {
+    color: CadetBlue;
+  }
+ 
+  /* Add a black background color to the top navigation */
+  
+	.navbar {
+	  background-color: #f18686;
+	  overflow:hidden;
+	  width: 95%;
+	  margin: auto;
+    position: fixed;
+    top: 0;
+	}
+	/* Style the links inside the navigation bar */
+	.navbar a {
+	  float: none;
+	  color: black;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  font-size: 20px;
+	}
+  .navbar a:hover {
+    background: #121111;
+    color: rgb(126, 38, 38);
+  }
+
+  .style_center
+  {
+    text-align: center;
+  }
+  .rows {
+    display: flex;
+  }
+  
+  .columns {
+    flex: 50%;
+  }
+  aside {
+    width: auto;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;  
+    border: 10px black;
+    text-indent: 20px;
+}
+
+  
